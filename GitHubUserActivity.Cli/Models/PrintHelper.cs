@@ -10,7 +10,10 @@ public static class PrintHelper
             return;
         }
 
-        IEnumerable<IGrouping<string, UserEvent>> dict = userEvents.GroupBy(keySelector: @event => @event.EventType, @event => @event);
+        IEnumerable<IGrouping<string, UserEvent>> dict = userEvents
+            .GroupBy(keySelector: @event => @event.EventType, @event => @event)
+            .OrderBy(e => e.Key);
+
         foreach (IGrouping<string, UserEvent> events in dict)
         {
             ShowEvent(events.Key, events.Count(), userName);
