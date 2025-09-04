@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GitHubUserActivity.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "kamranahmedse"
+    }
+  }
+}
