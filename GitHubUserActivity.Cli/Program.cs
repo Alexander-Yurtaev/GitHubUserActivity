@@ -1,4 +1,5 @@
 ﻿using GitHubUserActivity.Cli;
+using GitHubUserActivity.Cli.Models;
 
 string username = args.Any() ? args[0] : "";
 
@@ -23,5 +24,4 @@ catch (HttpRequestException ex)
     return;
 }
 
-
-Console.WriteLine($"userEvents: {userEvents?.Length ?? 0}");
+PrintHelper.PrintUserEvents(userEvents, username);
