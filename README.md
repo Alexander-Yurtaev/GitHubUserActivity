@@ -4,7 +4,7 @@
 Тип: CLI
 Технологии: C#, .NET9
 Источник задания: (GitHubUserActivity)[https://roadmap.sh/projects/github-user-activity]
-Статус: в разработке
+Статус: готово
 
 В приложении GitHubUserActivity есть простой интерфейс командной строки (CLI) для получения
 информации о последних действиях пользователя GitHub, которая отображаетсяя в терминале. 
@@ -28,7 +28,7 @@ Level: Beginner
 Type: CLI
 Technology: C#, .NET9
 Source: (GitHubUserActivity)[https://roadmap.sh/projects/github-user-activity]
-Stage: In progress
+Stage: Done
 
 There is a simple command line interface (CLI) in GitHubUserActivity application to fetch 
 the recent activity of a GitHub user and display it in the terminal.
