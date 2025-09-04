@@ -1,4 +1,6 @@
-﻿namespace GitHubUserActivity.Cli.Models;
+﻿using GitHubUserActivity.Cli.Models;
+
+namespace GitHubUserActivity.Cli.Helpers;
 
 public static class PrintHelper
 {

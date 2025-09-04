@@ -1,4 +1,5 @@
 ﻿using GitHubUserActivity.Cli;
+using GitHubUserActivity.Cli.Helpers;
 using GitHubUserActivity.Cli.Models;
 
 string username = args.Any() ? args[0] : "";
